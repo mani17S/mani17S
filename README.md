@@ -10,7 +10,7 @@
 
 | Area | What I've built or practised |
 |---|---|
-| **Detection engineering** | Custom Falco rules for container-escape behaviour; 13 evidence-backed MITRE ATT&CK mapping rules scored against ground-truth scenarios |
+| **Detection engineering** | Sigma rules with positive/negative tests in CI; custom Falco rules for container-escape behaviour; 13 evidence-backed MITRE ATT&CK mapping rules scored against ground-truth scenarios |
 | **SOC triage & investigation** | Alert triage dashboard, case management, evidence timelines, multi-source correlation (Sysmon, Suricata EVE) |
 | **Incident response** | Evidence provenance (SHA-256 chain of custody), role-tailored incident reports, human-in-the-loop review |
 | **Runtime / container security** | Falco on Docker, automated container pause via webhook response |
@@ -28,6 +28,11 @@ A local-first, privacy-preserving workbench for alert triage and incident invest
 
 - Sysmon and Suricata ingestion, ATT&CK mapping, SHA-256 provenance, scoped RBAC
 - Evaluation framework with 20 ground-truth scenarios; weak recall is published, not hidden
+
+### 🧪 [detection-engineering-lab](https://github.com/mani17S/detection-engineering-lab) — Detections as tested code
+Six Sigma rules for Windows process telemetry (encoded PowerShell, Office spawning shells, LSASS dumping, shadow-copy deletion and more), mapped to MITRE ATT&CK. Each rule has attack events that must fire and benign look-alikes that must not, enforced in CI by a small custom Sigma-subset evaluator. The README states its limits plainly: hand-written test events, not production data.
+
+`Python` · `Sigma` · `MITRE ATT&CK` · `pytest` · `GitHub Actions`
 
 ### 🐳 [DockerScape](https://github.com/mani17S/DockerScape) — Container escape detection & response lab
 Simulates a container breakout, detects it at runtime with **Falco** custom rules, and uses a webhook to pause the offending container.
