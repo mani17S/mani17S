@@ -30,7 +30,7 @@ A local-first, privacy-preserving workbench for alert triage and incident invest
 - Evaluation framework with 20 ground-truth scenarios; weak recall is published, not hidden
 
 ### 🧪 [detection-engineering-lab](https://github.com/mani17S/detection-engineering-lab) — Detections as tested code
-Six Sigma rules for Windows process telemetry (encoded PowerShell, Office spawning shells, LSASS dumping, shadow-copy deletion and more), mapped to MITRE ATT&CK. Each rule has attack events that must fire and benign look-alikes that must not, enforced in CI by a small custom Sigma-subset evaluator. The README states its limits plainly: hand-written test events, not production data.
+Six Sigma rules for Windows process telemetry (encoded PowerShell, Office spawning shells, LSASS dumping, shadow-copy deletion and more), mapped to MITRE ATT&CK. Each rule has attack events that must fire and benign look-alikes that must not, enforced in CI by a small custom Sigma-subset evaluator. I also replayed them against 278 public attack samples, reviewed every hit and miss (which led to one rule fix), and documented what that does *not* prove: false-positive rate.
 
 `Python` · `Sigma` · `MITRE ATT&CK` · `pytest` · `GitHub Actions`
 
