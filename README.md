@@ -1,6 +1,8 @@
-# Hi, I'm Mani 👋
+# Manikanta Srinivas Sariki
 
-**Aspiring blue-team / defensive security engineer** — CS student focused on detection, triage and incident response, with a habit of measuring my own detections and writing down what doesn't work yet.
+**Aspiring blue-team / defensive security engineer** — student at National Forensic Sciences University, Gandhinagar, focused on detection, triage and incident response, with a habit of measuring my own detections and writing down what doesn't work yet.
+
+[LinkedIn](https://www.linkedin.com/in/manikanta-srinivas-sariki-695342323) · [Detection lab](https://github.com/mani17S/detection-engineering-lab) · [Case study](https://github.com/mani17S/detection-engineering-lab/blob/main/docs/case-studies/comsvcs-minidump.md)
 
 `#BlueTeam` `#DetectionEngineering` `#SOC` `#IncidentResponse` `#ContainerSecurity`
 
@@ -61,4 +63,4 @@ A task/timer app (React, Express, PostgreSQL). I later audited it myself: remove
 - Deterministic detection first; add a model only where it earns its place.
 - Defensive only: tooling here is for detection, triage and response in labs I own.
 
-📫 Open to SOC / detection-engineering internships and blue-team projects — reach me through an issue or discussion on any repo above.
+📫 Open to SOC / detection-engineering internships and blue-team projects — reach me on [LinkedIn](https://www.linkedin.com/in/manikanta-srinivas-sariki-695342323) or through an issue on any repo above.
